@@ -1,0 +1,128 @@
+#peliculas, #resultadoBusqueda {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.eliminar-animacion {
+
+    animation: eliminarPelicula 1.3s;
+
+    animation-fill-mode: forwards;
+
+    z-index: 2;
+
+}
+
+@keyframes eliminarPelicula {
+
+    from {
+        left: 0;
+    }
+    to {
+        left: 130%;
+    }
+
+}
+
+.imagenContenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-bottom: .5rem;
+
+}
+
+article {
+    box-shadow: 1px 1px 1px 1px gray;
+
+    margin: 1rem;
+
+    transition: all 0.1s linear;
+
+    width: 20%;
+}
+
+article:hover {
+    box-shadow: 1px 1px 3px 3px rgb(138, 172, 179);
+}
+
+article h3 {
+
+    text-align: center;
+
+}
+
+article p {
+
+    height: 100px;
+
+    overflow: hidden;
+
+    text-align: justify;
+
+}
+
+article img {
+
+    width: 150px;
+
+}
+
+article .btn {
+
+    margin-bottom: 1rem;
+
+}
+
+#append-pagination {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.pagination {
+
+    font-size: 20px;
+
+}
+
+.pagination li {
+
+    padding: 10px;
+
+    width: 50px;
+    
+    text-align: center;
+
+    background-color: rgb(40, 40, 40);
+    border-radius: 50%;
+
+    color: white;
+
+    margin-right: 0.7rem;
+
+    transition: all 0.3s linear;
+
+}
+
+.pagination li:hover {
+
+    background-color: rgb(168, 49, 49);
+
+}
+
+.pagination li a {
+    color: rgb(182, 182, 182);
+}

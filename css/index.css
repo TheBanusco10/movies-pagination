@@ -1,0 +1,99 @@
+#peliculas, #resultadoBusqueda {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.imagenContenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-bottom: .5rem;
+
+}
+
+article h3 {
+
+    text-align: center;
+
+    height: 70px;
+
+    overflow: hidden;
+
+}
+
+article p {
+
+    height: 100px;
+
+    overflow: hidden;
+
+    text-align: justify;
+
+}
+
+article img {
+
+    width: 150px;
+
+}
+
+.acciones {
+
+    margin-bottom: 0.7rem;
+
+    text-align: center;
+
+}
+
+#append-pagination {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+
+.pagination {
+
+    font-size: 20px;
+
+}
+
+.pagination li {
+
+    padding: 10px;
+
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
+
+    color: white;
+
+    margin-right: 0.7rem;
+
+}
+
+.pagination li a {
+    color: rgb(182, 182, 182);
+}
+
+header {
+
+    background-color: rgb(31, 31, 31);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
